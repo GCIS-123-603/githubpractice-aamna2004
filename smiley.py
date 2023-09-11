@@ -8,6 +8,12 @@ def draw_circle():
     turtle.begin_fill()
     turtle.circle(50)
     turtle.end_fill()
+
+def draw_centered_circle():
+    #step1 get user input on radius
+    #step2 start fill
+    #step3 use turtle.circle(radius)
+    #step4 end fill
     
 
 def main():
