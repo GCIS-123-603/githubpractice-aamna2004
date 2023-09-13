@@ -11,6 +11,19 @@ def bday_message():
 bday_message()
 
 
+def calculator ( num1 ,num2):
+    print("the sum of ", num1 ,"and ",num2 , "is ", num1+num2)
+    print("the difference of " , num1, "and" , num2 , "is ", num1-num2)
+    print("the product of " , num1, "and" , num2 , "is ", num1*num2)
+    print("the quotient of " , num1, "and" , num2 , "is ", num1/num2)
+
+def main():
+    num1=float(input("enter number 1 : "))
+    num2=float(input("enter number 2 : "))
+    calculator(num1,num2)
+
+main()
+
 #end
 
 
